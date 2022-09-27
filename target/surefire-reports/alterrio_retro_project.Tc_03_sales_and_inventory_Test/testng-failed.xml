@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [alterrio_retro_project.Tc_03_sales_and_inventory_Test]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="alterrio_retro_project.Tc_03_sales_and_inventory_Test">
+        <methods>
+          <include name="logoutSuccess"/>
+          <include name="main"/>
+          <include name="setupApp"/>
+          <include name="closeEntire"/>
+        </methods>
+      </class> <!-- alterrio_retro_project.Tc_03_sales_and_inventory_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [alterrio_retro_project.Tc_03_sales_and_inventory_Test] -->

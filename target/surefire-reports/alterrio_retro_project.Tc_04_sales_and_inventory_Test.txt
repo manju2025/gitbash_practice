@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: alterrio_retro_project.Tc_04_sales_and_inventory_Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.854 sec

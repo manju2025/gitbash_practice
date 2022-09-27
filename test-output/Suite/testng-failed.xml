@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.tyss.sales_and_inventory_Generic_script.ListenerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="alterrio_retro_project.Tc_03_sales_and_inventory">
+        <methods>
+          <include name="closeEntire"/>
+          <include name="main"/>
+          <include name="setupApp"/>
+          <include name="logoutSuccess"/>
+        </methods>
+      </class> <!-- alterrio_retro_project.Tc_03_sales_and_inventory -->
+      <class name="alterrio_retro_project.TC_02_sales_and_iventory">
+        <methods>
+          <include name="main"/>
+          <include name="closeEntire"/>
+          <include name="setupApp"/>
+          <include name="logoutSuccess"/>
+        </methods>
+      </class> <!-- alterrio_retro_project.TC_02_sales_and_iventory -->
+      <class name="alterrio_retro_project.Tc_01_sales_and_inventory">
+        <methods>
+          <include name="closeEntire"/>
+          <include name="main"/>
+          <include name="setupApp"/>
+          <include name="logoutSuccess"/>
+        </methods>
+      </class> <!-- alterrio_retro_project.Tc_01_sales_and_inventory -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

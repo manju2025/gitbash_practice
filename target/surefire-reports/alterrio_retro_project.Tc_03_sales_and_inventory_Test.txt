@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: alterrio_retro_project.Tc_03_sales_and_inventory_Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.984 sec <<< FAILURE!
+main(alterrio_retro_project.Tc_03_sales_and_inventory_Test)  Time elapsed: 2.176 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:856)
+	at org.testng.Assert.assertNotEquals(Assert.java:861)
+	at org.tyss.sales_and_inventory_Generic_script.WebDriverUtility.toperformVerificationByAssertNotEquals(WebDriverUtility.java:283)
+	at alterrio_retro_project.Tc_03_sales_and_inventory_Test.main(Tc_03_sales_and_inventory_Test.java:50)
+
